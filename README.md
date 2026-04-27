@@ -1,4 +1,4 @@
-# A Lightweight Text-Aligned Autoregressive MLLM for Visual Understanding and Generation
+# A Lightweight Unified Autoregressive MLLM based on Text-Aligned Visual Tokens for Visual Understanding and Generation
 
 This project builds a unified autoregressive MLLM for visual understanding and generation based on fully discrete, text-aligned visual tokens. The multimodal framework follows the [Tar](https://github.com/csuhan/Tar) project. The model is lightweight, with only about `1.6B` parameters in total (LLM + Text-Aligned Tokenizer + De-Tokenizer), making it suitable for edge-side applications.
 
@@ -24,7 +24,7 @@ On the MME benchmark, the model achieves competitive visual understanding perfor
 
 Prompt: Describe this image.
 
-![demo](./README/demo-1777293110558-8.jpg)
+![demo](./README/demo-1777303658656-1.jpg)
 
 Output:
 
@@ -49,7 +49,7 @@ Other generated images:
 ## Installation
 
 ```bash
-git clone https://github.com/qhdxwyx/A-Lightweight-Text-Aligned-Autoregressive-MLLM-for-Visual-Understanding-and-Generation
+git clone https://github.com/qhdxwyx/A-Lightweight-Unified-Autoregressive-MLLM
 cd UMLLM
 
 conda create -n UMLLM python=3.10 -y

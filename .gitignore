@@ -140,3 +140,20 @@ asset/*.pt
 asset/*.pth
 asset/*.safetensors
 asset/*.bin
+
+# Release checkpoints tracked with Git LFS
+!asset/vq_ds16_t2i.pt
+!output_dir_LLM/
+!output_dir_LLM/**
+!output_dir_RAR_DTok/
+!output_dir_RAR_DTok/**
+!output_dir_TA-Tok/
+!output_dir_TA-Tok/**
+
+# Original files above GitHub LFS 2GB object limit; upload split parts instead
+output_dir_LLM/model.safetensors
+output_dir_TA-Tok/ta_tok.pth
+!output_dir_LLM/model.safetensors.part*
+!output_dir_TA-Tok/ta_tok.pth.part*
+output_dir_RAR_DTok/latest.pth
+!output_dir_RAR_DTok/latest.pth.part*
