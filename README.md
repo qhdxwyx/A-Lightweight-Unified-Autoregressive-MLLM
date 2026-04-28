@@ -24,7 +24,7 @@ On the MME benchmark, the model achieves competitive visual understanding perfor
 
 Prompt: Describe this image.
 
-![demo](./README/demo-1777303658656-1.jpg)
+![demo](./README/demo.jpg)
 
 Output:
 
@@ -42,9 +42,9 @@ Output: (`256 x 256 px`)
 
 Other generated images:
 
-| A photo of a boat sailing on the sea.                        | A cake on a table                                      | Depict an underwater scene.            |
-| ------------------------------------------------------------ | ------------------------------------------------------ | -------------------------------------- |
-| ![A boat is sailing on the sea.](./README/A%20boat%20is%20sailing%20on%20the%20sea..png) | ![rar_t2i_table (1)](./README/rar_t2i_table%20(1).png) | ![underwater](./README/underwater.png) |
+| A photo of a boat sailing on the sea.                        | A cake on a table                                            | Depict an underwater scene.            |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------------- |
+| ![A boat is sailing on the sea.](./README/A%20boat%20is%20sailing%20on%20the%20sea..png) | ![A cake on the table](./README/A%20cake%20on%20the%20table.png) | ![underwater](./README/underwater.png) |
 
 ## Installation
 
