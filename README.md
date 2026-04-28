@@ -340,8 +340,6 @@ Results:
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![De-Tokenizer reconstruction-4](./README/De-Tokenizer%20reconstruction-4.png) | ![De-Tokenizer reconstruction-2](./README/De-Tokenizer%20reconstruction-2.png) |
 
-Due to the small training set, limited model parameters, and constrained training resources, there remains significant room for improvement.
-
 ## Citation
 
 Please cite these works if this repository is useful for your work:
